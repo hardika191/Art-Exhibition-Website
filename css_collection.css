@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+* {box-sizing:border-box}
+
+body{
+background:#1e3934	;
+}
+#title1{
+	font-size:40px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	margin-left:20%;
+	margin-top:3%;
+	color:white;	
+}
+.nav
+{
+	background:black;
+	margin-left:50px;
+	margin-top:30px;
+	margin-bottom:30px;
+	display:inline;	
+}
+.nav a{
+	font-size:18px;
+	color:white;
+	text-decoration:none;
+	margin:50px;
+}
+
+table
+{
+
+	margin-left:100px;
+	margin-bottom:30px;
+}
+
+
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin:auto;
+  
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.filter
+{
+	float:left;
+	background:#1e3934;
+	width:300px;
+	padding:20px 20px;
+	height:auto;
+	margin-top:100px;
+}
+.items{
+	background:#1e3934;
+	width:75%;
+	height:auto;
+	float:left;
+	padding:50px;
+}
+.thumbnail{
+	
+	float:left;
+	margin-left:30px;
+	margin-top:20px;
+    background:#1e3934;
+	width:250px;
+	height:300px;
+}
+.price{
+	position:absolute;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	margin-top:225px;
+	margin-left:50px;
+}
+input[type="button"]{
+	position:absolute;
+	margin-top:260px;
+	border-radius:10px;
+	height:35px;
+	width:120px;
+	margin-left:70px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:18px;}
+
+.image{
+position:absolute;	
+}
