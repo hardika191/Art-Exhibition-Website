@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background:#1e3934;
+}
+.form
+{
+	border:2px solid black;
+	border-radius:10px;
+	background:#F0F0F0;
+	padding:10px 50px;
+	width:45%;
+	height:auto;
+	margin-left:25%;
+	margin-top:5%;
+}
+#title1{
+	letter-spacing:2px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;	
+	font-size:36px;
+}
+.para1{
+	letter-spacing:1px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:18px;
+	
+}
+.fonts{
+	font-weight:bold;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	
+}
+input[type=text]
+{
+	width:40%;
+	height:30px;
+	margin-right:10px;
+	border-radius:5px;
+	font-weight:bold;
+	font-size:14px;
+}
+input[type=email]
+{
+	width:40%;
+	height:30px;
+	margin-right:10px;
+	border-radius:5px;
+	font-weight:bold;
+	font-size:14px;
+}
+input[type=number]
+{
+	width:40%;
+	height:30px;
+	margin-right:10px;
+	border-radius:5px;
+	font-weight:bold;
+	font-size:14px;
+}
+select{
+	width:40%;
+	height:30px;
+	margin-right:10px;
+	border-radius:10px;
+	font-weight:bold;
+	font-size:14px;
+	background:white;
+	}
+	
+input[type=radio]
+{
+	width:50px;
+	transform:scale(1);
+	font-weight:bold;
+}
+input[type=checkbox]
+{
+	width:50px;
+	transform:scale(1);
+	font-weight:bold;
+}
+
+input[type=submit]
+{
+	margin-top:50px;
+	text-align:center;
+	margin-left:200px;
+	width:200px;
+	height:50px;
+	background:#0A8655;
+	font-weight:bold;
+}
+input:focus:invalid{
+border:2px solid red;	
+}
+input:focus:valid{
+border:2px solid green;	
+}

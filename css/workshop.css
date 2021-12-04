@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+background-image:url(../background.gif);
+background-repeat:repeat;	
+}
+.main{
+	padding:10px 10px;
+width:1001px;
+height:auto;	
+background:white;
+margin-left:175px;
+}
+
+.header{
+	width:100%;
+	height:175px;
+	background-image:url(../paint_work.jpg);
+}
+li{
+display:inline;
+}
+.nav a{
+	background:#63A4A6;
+	color:white;
+	padding:10px 20px;
+	border-radius:3px;
+	text-decoration:none;
+	font-size:18px;	
+	margin-left:5px;
+	
+}
+#vid{
+	float:right;
+	margin-top:-325px;
+	margin-right:50px;
+}
+.para{
+width:300px;
+font-size:16px;
+letter-spacing:2px;
+font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;	
+}
+.para1{
+width:450px;
+font-size:16px;
+letter-spacing:2px;
+font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;	
+}
+.para2{
+font-size:16px;
+letter-spacing:2px;
+font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;	
+	}
+	
+footer{
+	width:1001px;
+	background:black;
+	height:150px;
+	margin-top:30px;
+	text-align:center;
+	padding-top:50px;
+}
+footer a{
+	color:white;
+	text-decoration:none;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size:18px;
+	background:black;
+	border:1px solid green;
+	padding:10px 10px;
+	margin-top:50px;
+	border-radius:5px;
+}
+footer a:hover
+{opacity:0.5;}
